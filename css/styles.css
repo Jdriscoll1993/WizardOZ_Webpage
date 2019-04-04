@@ -1,0 +1,120 @@
+
+body {
+    background: linear-gradient(rgb(10, 62, 92), transparent 100%), 
+    linear-gradient(50deg, #fff, transparent),
+    cadetblue no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    backround-color: darkcyan;
+    color:steelblue;
+}
+
+nav {
+    display: flex; 
+    background-color:rgb(10, 58, 85);
+    width: 100%;
+    justify-content: center;
+    padding: .2em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+nav a {
+    margin: 2em 1em 0px 1em; /* top right bottom left */
+    color: silver;
+}
+
+.bnw {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 5px 10px 5px;
+    border-radius: 300px;
+}
+nav a:hover{
+    color: goldenrod;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    opacity: 
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color:darkcyan;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+h1, h2, h3 {
+    color: rgb(36, 47, 97);
+
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(67, 175, 194);
+}
+
+.wrapper {
+    
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+   /* background-image: url(../images/YBR.jpg) 
+   opacity: 5;
+   box-shadow: 5px 5px 5px;
+}*/
+
+/*.YBR (now wrapper) {
+    background: linear-gradient(rgb(10, 62, 92), transparent 50%), 
+    linear-gradient(0deg, #fff, transparent),
+    cadetblue no-repeat center;
+    background-size: cover;
+    opacity: 50%;
+}
+
+img {
+    box-shadow: 5px 10px 5px;
+    border-radius: 100px;
+}
+
+P {
+    background-image: url(/images/YBR.jpg);
+    box-shadow: 5px 5px 5px;
+}
+*/
+
+
+
+
