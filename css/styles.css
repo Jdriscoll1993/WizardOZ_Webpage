@@ -45,6 +45,22 @@ nav a:hover{
     opacity: 
 }
 
+.flex-item {
+    background-color: hotpink;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.flex-item p {
+    text-align: left;
+}
+
+.section-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
 main {
     flex: 2;
     margin: 1em;
@@ -76,11 +92,6 @@ h1 {
     color: rgb(67, 175, 194);
 }
 
-.wrapper {
-    
-}
-
-
 h3 {
     display: flex;
     justify-content: center;
@@ -91,30 +102,6 @@ h2 {
     justify-content: center;
 }
 
-main {
-   /* background-image: url(../images/YBR.jpg) 
-   opacity: 5;
-   box-shadow: 5px 5px 5px;
-}*/
-
-/*.YBR (now wrapper) {
-    background: linear-gradient(rgb(10, 62, 92), transparent 50%), 
-    linear-gradient(0deg, #fff, transparent),
-    cadetblue no-repeat center;
-    background-size: cover;
-    opacity: 50%;
-}
-
-img {
-    box-shadow: 5px 10px 5px;
-    border-radius: 100px;
-}
-
-P {
-    background-image: url(/images/YBR.jpg);
-    box-shadow: 5px 5px 5px;
-}
-*/
 
 
 
